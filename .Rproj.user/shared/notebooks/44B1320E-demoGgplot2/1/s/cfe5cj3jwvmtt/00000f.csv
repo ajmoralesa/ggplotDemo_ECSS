@@ -1,0 +1,3 @@
+"0","ggplot(powerlift_data, aes(Federation)) +"
+"0","    geom_bar() +"
+"0","    labs(x = ""Federation"", y = ""Number of People"")"

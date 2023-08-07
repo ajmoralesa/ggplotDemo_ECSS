@@ -1,0 +1,6 @@
+"0",""
+"0","powerlift_data %>% "
+"0","    ggplot(aes(x = Bodyweight, y = Total)) +"
+"0","    geom_point(alpha=0.05) +"
+"0","    labs(x = ""Bodyweight (Kg)"", y = ""Total Score (Kg)"")"
+"0",""

@@ -1,0 +1,96 @@
+---
+title: "Exploring the power of ggplot2"
+author: Antonio J Morales
+date: July 7, 2023
+output:
+  xaringan::moon_reader:
+    includes:
+      after_body: insert-logo.html
+    css: ["xaringan-themer.css", "title_slide_style.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#2C2F65",
+  text_bold_color = "#C5243D",
+  text_slide_number_color = "#C5243D",
+  header_font_google = google_font("Didact Gothic"),
+  text_font_google = google_font("Didact Gothic", "300", "300i"),
+  code_font_google = google_font("Fira Mono"),
+  title_slide_background_color = "#FFFF",
+  title_slide_text_color = "#2C2F65"
+)
+```
+
+
+---
+class: inverse, center, middle, hide-logo
+## Overview of ggplot2
+
+---
+## Overview of ggplot2
+- Great choice of package in the R world. 
+- Grammar of graphics
+- Lot's of examples and great documentation
+
+<img src="./inst/img/gogr.png" alt="Grammar of Graphics" height="200">
+<img src="./inst/img/layers.png" alt="Layers" height="200">
+
+---
+class: inverse, center, middle, hide-logo
+## Data preparation
+
+---
+## Data preparation 
+- This is a key determinant of our visualization. 
+- Dataset `openpowerlifting.csv`
+
+---
+class: inverse, center, middle, hide-logo
+## Building Basic Visualizations
+
+---
+## Building Basic Visualizations
+- Step by step of a very basic plot
+- Main components: data, aesthetic mapping, geometries
+- Modifying aesthetics and adding layers: a piece of cake !
+
+---
+class: inverse, center, middle, hide-logo
+## Customization and Theming
+
+---
+## Customization and Theming
+- There is a wide range of customization options available in ggplot2
+- Axes, labels, titles, and legends can be easily modified
+- Use themes to create consistent and visually appealing visualizations
+
+---
+class: inverse, center, middle, hide-logo
+## Advanced Features
+
+---
+## Advanced Features
+- facets, statistical transformations, and coordinate systems
+- Lots of packages that extend ggplot2's capabilities...
+
+---
+class: inverse, center, middle, hide-logo
+## Limitations of ggplot2 for Interactive Applications
+
+---
+## Limitations of ggplot2 for Interactive Applications
+There are advantages of interactive visualizations in exploring complex datasets 
+and user engagement.
+
+
+- ggplot2 is primarily designed for static visualizations
+- challenges of incorporating interactive elements using ggplot2 alone

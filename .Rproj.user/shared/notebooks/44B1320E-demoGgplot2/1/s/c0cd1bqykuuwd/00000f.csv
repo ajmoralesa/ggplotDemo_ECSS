@@ -1,0 +1,7 @@
+"0",""
+"0","powerlift_data %>%"
+"0","  filter(Squat > 0 & Bench > 0) %>% "
+"0","  ggplot(aes(x=Bench, y=Squat))+"
+"0","  geom_point()+"
+"0","  facet_wrap(""Federation"")"
+"0",""
